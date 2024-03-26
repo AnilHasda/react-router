@@ -8,6 +8,7 @@ import ContactUs from './components/contact/ContactUs';
 import AboutUs from './components/aboutUs/AboutUs';
 import NotFound from './components/notFound/NotFound';
 import Params from './components/params/Params';
+import Github from './components/github/Github';
 // let router=createBrowserRouter([{
 //   path:"/",
 //   element:<Layout />,
@@ -41,6 +42,7 @@ let router=createBrowserRouter(
 <Route path="aboutUs"element={<AboutUs />}/>
 <Route path="ContactUS"element={<ContactUs />}/>
 <Route path="params/:data"element={<Params />}/>
+<Route path="github"element={<Github />} />
 <Route path="*"element={<NotFound />}/>
     </Route>
   )

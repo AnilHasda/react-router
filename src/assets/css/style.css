@@ -437,3 +437,9 @@ footer{
     background-color:#000;
     color:#fff;
 }
+/*styling of github section starts from here*/
+.github{
+    height:300px;
+    width:300px;
+    obverflow:hidden;
+}
