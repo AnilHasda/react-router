@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 export default function Github() {
-    let data=userLoaderData();
+    let data=useLoaderData();
     // let [image,setImage]=useState("");
     // let[followers,setFollowers]=useState("")
     // useEffect(() => {
@@ -20,7 +20,7 @@ export default function Github() {
                 <h1>github section</h1>
                 <div className="github">
                     <h2 className="pb-20">followers:{data.followers}</h2>
-                <img src={data.image} alt="avatar-image"/>
+                <img src={data.avatar_url} alt="avatar-image"/>
 
                 </div>
             </div>
