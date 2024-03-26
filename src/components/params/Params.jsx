@@ -1,13 +1,11 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-export default function AboutUs(){
+export default function Params(){
     let {data}=useParams();
     return(
         <>
         <div className="container">
-        <h3>this is about us section 9800000000</h3>
-        <p>email:anil@gmail.com</p>
-       
+        <h3>welcome mr./mrs. {data}.</h3>
         </div>
         </>
     )
